@@ -12,9 +12,8 @@ def add_element_to_end_of_array(array, element)
   array.push("arrays!")
 end
 
-def add_element_to_start_of_array
-array = ["cat","dog","horse"]
-array.unshift("parrot")
+def add_element_to_start_of_array(array, element)
+  array.unshift("parrot")
 
 end
 
