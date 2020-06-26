@@ -30,11 +30,10 @@ def retrieve_element_from_index(array, index_number)
   array[0]
 end
 
-def retrieve_first_element_from_array
+def retrieve_first_element_from_array(array)
   return array[0]
 end
 
-def retrieve_last_element_from_array
-  array = ["1","2","3","4","5"]
+def retrieve_last_element_from_array(array)
   return array[-1]
 end
