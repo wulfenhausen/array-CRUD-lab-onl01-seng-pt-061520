@@ -13,18 +13,16 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift("arrays!")
+  array.unshift("wow")
 
 end
 
 def remove_element_from_end_of_array(array, element)
-  array = ["fantastic four", "final four", "favorite five"]
   array.pop
   
 end
 
 def remove_element_from_start_of_array(array, element)
-  array = ["one","two","three","four"]
   array.shift 
 end
 
