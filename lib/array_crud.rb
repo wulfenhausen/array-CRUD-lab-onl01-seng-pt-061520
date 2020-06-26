@@ -8,7 +8,7 @@ def create_an_array
   end
 
 def add_element_to_end_of_array
-  #3333333333array << "arrays!"
+  #array << "arrays!"
   array.push("arrays!")
 end
 
